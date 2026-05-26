@@ -12,10 +12,13 @@ int main()
     v.push_back("chaitanya");
     v.push_back("Rohan");
 
-    // for-each loop
+    // for-each loop : loop over a vector.
     for(string name : v)
     {
         cout<<name<<endl;
     }
+
+
+
     return 0;
 }
