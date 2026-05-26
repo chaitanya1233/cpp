@@ -14,7 +14,7 @@ int main()
 
 
     // Iterate using for loop.
-    for(it = v.begin();it < v.end();it++)
+    for(it = v.begin();it < v.end();it++)   // v.end()  -->   reference after last position
     {
         cout<<*it<<" ";
     }
