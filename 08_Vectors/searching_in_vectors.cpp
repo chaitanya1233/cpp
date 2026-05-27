@@ -50,7 +50,7 @@ int main()
     // Check if the element was found.
     if(flag == 1)
     {
-        cout<<"we found element!";
+        cout<<"we found element!";n
     }
     else{
         cout<<"Element not found!";
