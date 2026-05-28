@@ -21,6 +21,7 @@ Output:
 
 5 5 -1 4 -1
 
+
 Explanation:
 
 Element	Next Greater
@@ -29,6 +30,7 @@ Element	Next Greater
 5	-1
 3	4
 4	-1
+
 Hint
 
 Use:
@@ -52,7 +54,7 @@ void next_greater_element(int arr[],int n)
     stack<int> st;
 
     // Push all the elements to the stack
-    for(int i = 0; i<n;i++)
+    for(int i = 0;i<n;i++)
     {
         int next = -1;
         for(int j = i+1;j<n;j++)
@@ -62,7 +64,6 @@ void next_greater_element(int arr[],int n)
                 next = arr[j];
                 break;
             }
-
           }
           cout<<next<<" ";
         }
@@ -81,5 +82,7 @@ int main()
     return 0;
 }
 
+
+// --> This solution gives O(n2) time complexity.
 
 
