@@ -39,3 +39,4 @@ int main() {
     miniMaxSum(arr);
     return 0;
 }
+-
