@@ -7,14 +7,14 @@ int main()
 {
     int arr[] = {1,2,3,54,54,6,45,3,3};
 
-    set<int> s;
+    set<int> st;
 
     for(int x : arr)
     {
-        s.insert(x);
+        st.insert(x);
     }
 
-    int counts = s.size();
+    int counts = st.size();
     cout<<"Number of distinct elements are:"<<counts<<endl;
     return 0;
 }
