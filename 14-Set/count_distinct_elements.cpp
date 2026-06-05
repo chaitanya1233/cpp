@@ -18,3 +18,6 @@ int main()
     cout<<"Number of distinct elements are:"<<counts<<endl;
     return 0;
 }
+
+
+

@@ -28,5 +28,7 @@ int main()
     {
         cout<<x<<" ";
     }
+    // Set always prints sorted order --> because they are ordered.
+
     return 0;
 }

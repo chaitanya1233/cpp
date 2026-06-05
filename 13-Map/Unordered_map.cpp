@@ -11,6 +11,9 @@ int main()
 
     // They give us O(1) Insert , erase , and traversal time complexity .
 
+    // Implementation is way-way similar to map , only difference is in declaration and
+    // internal oprations
+
     unordered_map<int,int> ump;
 
     ump[1] = 10;
@@ -22,8 +25,7 @@ int main()
     {
         cout<<x.first<<"->";
         cout<<x.second<<endl;
-    }
-    return 0;
+    }return 0;
 }
 
 
