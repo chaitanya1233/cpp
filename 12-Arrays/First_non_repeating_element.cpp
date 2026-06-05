@@ -1,9 +1,13 @@
-#include <bits/stdc++.h>
+// pass 1 : Build a  frequency map
+// pass 2 : Iterate through array
 
-using namespace std;
+ #include <bits/stdc++.h>
 
-int main()
-{
+ using namespace std;
 
-    return 0;
-}
+ int main()
+ {
+     int arr[] = {};
+
+     return 0;
+ }

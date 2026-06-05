@@ -15,14 +15,13 @@ int main()
 
     for(int x : arr)
     {
-         cout<<"Before:"<<mp[x];
+
         if(mp[x] > 0)
         {
             cout<<"First duplicate element is:"<<x<<endl;
             break;
         }
         mp[x]++;
-        cout<<"After:"<<mp[x]<<endl;
     }
 
     return 0;
