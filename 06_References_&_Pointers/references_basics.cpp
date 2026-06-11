@@ -33,10 +33,10 @@ int main()
     cout<<"The value of the y is:"<<y<<endl;
     cout<<"The value of the temp is:"<<temp<<endl;
 
-    // Check the adress of the y and temp.
+    // Check the address of the y and temp.
 
-    cout<<"Adress of the y is :"<<&y<<endl;
-    cout<<"Adress of the temp is :"<<&temp<<endl;  // Hear, temp is nothing but a another variable name for y.
+    cout<<"Address of the y is :"<<&y<<endl;
+    cout<<"Address of the temp is :"<<&temp<<endl;  // Here, temp is nothing but another variable name for y.
 
     // Lets manipulate the value of the temp
 

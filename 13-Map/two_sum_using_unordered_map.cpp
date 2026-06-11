@@ -15,7 +15,7 @@ int main()
     for(int x : arr)
     {
 
-        // Hear we are checking the need of the element
+        // Here we are checking the need of the element
        int need = target - x;
 
        // Checking if it is in the map.

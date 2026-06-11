@@ -10,7 +10,7 @@ int main(){
     //.1 sizeof() --> To get the size of the type.
 
     int a = 100;
-    cout<<"Size of the interger is:"<<sizeof(a)<<endl;
+    cout<<"Size of the integer is:"<<sizeof(a)<<endl;
 
     float b = 2.34;
     cout<<"Size of the float is:"<<sizeof(b)<<endl;
@@ -34,13 +34,13 @@ int main(){
 
 
 
-    // 2. address-of oprator : & ....> Returns hexadecimal value.
+    // 2. address-of operator : & ....> Returns hexadecimal value.
 
     cout<<"What is the address of the a:"<<(&a)<<endl;
 
     // defreference (*)
 
-    // comma oprator --> (,)
+    // comma operator --> (,)
 return 0;
 }
 

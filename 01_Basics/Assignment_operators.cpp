@@ -25,7 +25,7 @@ int main()
 
       // Value of the a after mul and div by 2
 
-      cout<<"Multipication Asssignment:"<<(a*=5)<<endl;
+      cout<<"Multiplication Assignment:"<<(a*=5)<<endl;
 
       cout<<"Division Assignment:"<<(a/=2)<<endl;
 

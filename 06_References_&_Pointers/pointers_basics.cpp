@@ -33,19 +33,19 @@ int main()
     // Create a pointer to x named temp
     int* temp;
 
-    // Storing adress of the x in temp
+    // Storing address of the x in temp
     temp =  &x;
 
     // Print the value of the x and temp
     cout<<"The value of the x is :"<<x<<endl;
-    cout<<"The value of the temp is:"<<temp<<endl;   // Temp is storing the adress of the x
+    cout<<"The value of the temp is:"<<temp<<endl;   // Temp is storing the address of the x
 
 
     // Print the value of the x using pointer temp
     cout<<"The value of the x using temp pointer:"<<*temp<<endl;
 
-    // Check the adress of the pointer itself
-    cout<<"Adress of the pointer is :"<<&temp<<endl;  // Though the pointer holds the adress of the another variable, it has it's own adress.
+    // Check the address of the pointer itself
+    cout<<"Address of the pointer is :"<<&temp<<endl;  // Though the pointer holds the address of the another variable, it has it's own address.
 
 
 

@@ -37,5 +37,4 @@ int main()
     }
     cout<<"Most frequent element is:"<<most_frequent<<endl;
     return 0;
-
 }

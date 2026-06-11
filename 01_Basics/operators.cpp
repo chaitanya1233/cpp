@@ -9,7 +9,7 @@ int main()
 
     int a = 10 , b = 5, c;
 
-    // Types of oprators in c++
+    // Types of operators in c++
 
     // 1. Addition : +
     c = a + b;

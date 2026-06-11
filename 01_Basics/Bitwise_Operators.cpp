@@ -15,7 +15,7 @@ int main(){
 
     cout<<(a&b)<<endl;
 
-    // sizeof() ; to get the size of the oprator
+    // sizeof() ; to get the size of the operator
 
     cout<<"Size of the a:"<<sizeof(a)<<endl;
     cout<<"Size of the b:"<<sizeof(b)<<endl;

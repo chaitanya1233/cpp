@@ -23,7 +23,7 @@ int main()
         swap(*left,*right);
         right--;
         left++;
-    } // Hear both pointers are moving together
+    } // Here both pointers are moving together
 
     // Print the array
     cout<<"Reversed array is:";

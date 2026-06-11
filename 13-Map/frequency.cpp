@@ -5,7 +5,7 @@ using  namespace std;
 
 int main()
 {
-    // Define  a string to store the freqency of every character
+    // Define  a string to store the frequency of every character
     map<char,int> freq;
 
     // String

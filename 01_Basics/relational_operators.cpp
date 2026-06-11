@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    // Relational  Oprator : Compare two values and return a boolean result.
+    // Relational  Operator : Compare two values and return a boolean result.
 
     //1. equals to : ==
 

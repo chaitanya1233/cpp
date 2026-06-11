@@ -10,11 +10,11 @@
 using namespace std;
 
 int main(){
-    int contineousErrors = -1;
+    int continuousErrors = -1;
 
 
-    if (contineousErrors=5){
-        cout<<"ALERT:System is faliling!"<<endl;
+    if (continuousErrors=5){
+        cout<<"ALERT:System is failing!"<<endl;
     }
     else{
         cout<<"System is safe.";
@@ -30,5 +30,5 @@ return 0;
 
 // In Java, the compiler would have saved you by screaming: "Type mismatch: cannot convert from int to boolean."
 
-// But C++ trusts you completely—even when you make a mistake!
+// But C++ trusts you completelyï¿½even when you make a mistake!
 

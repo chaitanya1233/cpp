@@ -18,8 +18,8 @@ int main()
     // extract only userName
 
     size_t firstLetter = rawData.find("c");
-    size_t coloPos = rawData.find(":");
-    userName = rawData.substr(firstLetter,coloPos-firstLetter);
+    size_t colonPos = rawData.find(":");
+    userName = rawData.substr(firstLetter,colonPos-firstLetter);
 
     cout<<"Username is:"<<userName<<endl;
 
@@ -43,7 +43,7 @@ int main()
 
 
     // rawData after capitalization
-    cout<<"username after capiytalization:"<<userName<<endl;
+    cout<<"username after capitalization:"<<userName<<endl;
 
 
     // Cleaned UserName

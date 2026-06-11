@@ -7,7 +7,7 @@ int main()
     // Define array
     int arr[] = {1,2,4,7,11,15};
 
-    // traget sum
+    // target sum
     int target = 15;
 
     // size of array
